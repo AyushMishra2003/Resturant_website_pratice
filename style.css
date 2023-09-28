@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Poppins', sans-serif; 
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    overflow-x: hidden;
+}
+/* HEADER CSS */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20rem;
+}
+.logo img{
+    width: 5rem;
+    height: 5rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a:hover{
+    color: cadetblue;
+}
+nav button{
+   padding-left: 1.5rem;
+   padding-right: 1.5rem; 
+   border-radius: 1.5rem;
+   color: #fff;
+}
+nav button{
+    background-color:cornflowerblue
+}
+nav button:hover{
+    color: darkcyan;
+}
+
+/* MAIN-CSS */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60rem;
+    gap: 3rem;
+    padding-top: 2rem;
+}
+.left img{
+    width: 20rem;
+    height: 20rem;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    gap: 1.5rem;
+    width: 30rem;
+    height: 18rem;
+}
+.right .product{
+    background-color: #149F39;
+    width: 10rem;
+    color: white;
+    border: none;
+    color: black;
+}
+.right p{
+    font-weight: 600;
+}
+.right .explorenow{
+    width: 10rem;
+    padding: 0.5rem;
+    background-color:#FCC066;
+    color: black;
+    border: none;
+}
+.top button:hover{
+    color: cadetblue;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+.con1{
+    width: 10rem;
+    height: 3rem;
+}
+.bottom img{
+    width: 8rem;
+   /* height: 3rem;  */
+}
+.bottom p{
+   font-size:0.8rem;
+   font-weight: 400;
+}
+.bottom h6{
+    font-size: 1rem;
+}
+
+/* Section */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+section{
+    padding-top: 2rem;
+}
+.menu{
+    background-color: #149F39;
+    border: none;
+    padding: 0.2rem 0.6rem;
+    /* gap: 2rem; */
+}
+.secheading{
+   font-weight: 400;
+   padding-top: 1.5rem;
+   font-size: 2rem;
+}
+.menu:hover{
+    color: cadetblue;
+}
+.all_image{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* border: 0.5px solid black; */
+}
+.top_image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.top_image img{
+    width: 20rem;
+}
+.bottom_image{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.bottom_image img{
+    width:  18rem;
+}
